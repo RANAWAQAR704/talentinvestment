@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+@font-face {
+    font-family: Rajdhani-Bold;
+    src: url('fonts/Rajdhani-Bold.ttf');
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 1240px;
+    margin: 0px auto;
+}
+.topbarinnner {display: flex;justify-content: space-between;align-items: center; }
+
+.topinner-left {
+    display: flex;
+}
+
+.Topbar {
+    background-color: #025196;
+}
+
+p {
+    padding-right: 20px;
+}
+
+.home {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    color: black;
+    padding: 10px;
+}
+
+.mail {
+    DISPLAY: FLEX;
+    align-items: center;
+    color: #fff;
+}
+
+.mail p {
+    padding-left: 15px;
+    font-family: Georgia Regular;
+    font-size: 16pt;
+}
+
+.phone {
+    DISPLAY: FLEX;
+    align-items: center;
+    color: #fff;
+}
+
+.phone p {
+    padding-left: 15px;
+    font-family: Georgia Regular;
+    font-size: 16pt;
+}
+
+input[type="button"] {
+    border-radius: 40px;
+    font-family: Georgia Regular;
+    font-size: 24.25px;
+    background-color: #fdb338;
+    border: 0px;
+    padding: 10px 13px;
+    display: inline-block;
+    /* display: flex; */
+}
+
+img {
+    padding-left: 14px;
+}
+
+.header {
+    padding: 20px;
+}
+
+a {
+    color: black;
+    font-family: Georgia Regular;
+    font-size: 13pt;
+    text-decoration: none;
+}
+
+.bg_header {
+    /* background-color: #04294a; */
+    height: 800px;
+    background-image: url(img/bgheader.png);
+
+    
+}
+
+.bg-container {
+    padding-top: 170px;
+    padding-bottom: 120px;
+}
+
+span.cmp {
+    border: 1px solid 0px;
+    border-radius: 40px;
+    padding: 10px 39px;
+    background-color: #025197;
+    color: white;
+    font-family: Georgia Bold;
+    font-size: 24.25pT;
+    display: inline-block;
+    text-align: center;
+}
+
+.heading {
+    font-size: 72pt;
+    COLOR: WHITE;
+    font-family: 'Cormorant Garamond', serif;
+}
+.heading_p {
+    color: white;
+    font-family: Georgia Regular;
+    font-size: 21.92pt;
+}
